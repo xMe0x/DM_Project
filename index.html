@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="RoundCro">RoundCro:</label>
+        <input type="number" id="RoundCro" name="RoundCro">
+        <br>
+        <label for="RoundFit">RoundFit:</label>
+        <input type="number" id="RoundFit" name="RoundFit">
+        <br>
+       <label for="Round">Input Round:</label>
+        <input type="number" id="Round" name="Round">
+        <br>
+        <label for="Benefit">Input Benefit if Fitness:</label>
+        <input type="number" id="Benefit" name="Benefit"> 
+        <br>
+        <label for="method">เลือกวิธี:</label>
+        <select id="method" style="height: 20px;width: 80px;">
+            <option value="ranking">ranking</option>
+            <option value="elitism">elitism</option>
+            <option value="tournament">tournament</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="output"></div> <!-- ใช้แสดงผลลัพธ์ -->
+    
+
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
